@@ -1,0 +1,323 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header_area {
+        padding: 0;
+    }
+    .navbar-brand {
+        margin-right: 30px;
+    }
+    .dorne-search-btn > a,
+    .dorne-signin-btn > a {
+        margin-right: 15px;
+        font-size: 14px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 7px;
+        padding-left: 7px;
+        font-size: 14px;
+    }
+    .hero-content h2 {
+        font-size: 50px;
+    }
+    .hero-social-btn {
+        bottom: 130px;
+    }
+    .hero-search-form .tab-content .tab-pane form .custom-select {
+        padding: 0 50px 0 20px;
+    }
+    .explore-search-form {
+        padding: 30px 20px;
+    }
+    .explore-search-result {
+        padding: 0 20px;
+    }
+    .explore-search-form h6 {
+        font-size: 16px;
+    }
+    .single-contact-info h6 {
+        font-size: 13px;
+    }
+    .single-contact-info h6 > i {
+        margin-right: 10px;
+    }
+    .single-contact-info:first-child {
+        margin-right: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-toggler {
+        border: 2px solid #fff;
+        color: #fff;
+        margin: 37px 0;
+        -webkit-transition-duration: 500ms;
+                transition-duration: 500ms;
+    }
+    .sticky .navbar-toggler {
+        margin: 17px 0
+    }
+    #dorneNav {
+        padding: 30px;
+        background-color: #341a79;
+        box-shadow: 1px 9px 10px rgba(255, 255, 255, 0.15);
+        border-radius: 0 0 3px 3px
+    }
+    .dorne-search-btn > a,
+    .dorne-signin-btn > a {
+        margin-right: 0;
+        margin-left: 15px;
+        padding: 10px 0;
+    }
+    .hero-content h2 {
+        color: #fff;
+        font-size: 42px;
+    }
+    .hero-social-btn {
+        bottom: 140px;
+        left: 30px;
+        z-index: 0;
+    }
+    .hero-search-form .tab-content .tab-pane form .custom-select {
+        padding: 0 10px;
+        margin-right: 5px;
+    }
+    .dorne-btn {
+        min-width: 150px;
+    }
+    .single-catagory-area .catagory-content h6 {
+        font-size: 13px;
+    }
+    .about-content h2 {
+        font-size: 36px;
+    }
+    .single-catagory-area {
+        padding: 40px 15px;
+    }
+    .clients-logo img {
+        padding: 0 15px;
+    }
+    .explore-search-area {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 60%;
+                flex: 0 0 60%;
+        width: 60%;
+    }
+    .explore-map-area {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 40%;
+                flex: 0 0 40%;
+        width: 40%;
+    }
+    .explore-search-form,
+    .explore-search-result {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 50%;
+                flex: 0 0 50%;
+        width: 50%;
+    }
+    .explore-search-form {
+        padding: 30px 15px;
+    }
+    .explore-search-result {
+        padding: 0 15px;
+    }
+    .explore-search-form h6 {
+        font-size: 14px;
+    }
+    .explore-search-form .tab-content .tab-pane form .custom-select {
+        margin-bottom: 15px;
+    }
+    .listing-sidebar {
+        margin-top: 100px;
+    }
+    .contact-form-area {
+        padding: 50px 20px;
+    }
+    .single-contact-info:first-child {
+        margin-right: 0;
+    }
+    .contact-text h4 {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .header_area {
+        padding: 0;
+    }
+    .navbar-brand {
+        margin-right: 0;
+    }
+    .navbar-toggler {
+        border: 2px solid #fff;
+        color: #fff;
+        margin: 37px 0;
+        -webkit-transition-duration: 500ms;
+                transition-duration: 500ms;
+    }
+    .sticky .navbar-toggler {
+        margin: 17px 0
+    }
+    #dorneNav {
+        padding: 15px;
+        background-color: #341a79;
+        box-shadow: 1px 9px 10px rgba(255, 255, 255, 0.15);
+        border-radius: 0 0 3px 3px
+    }
+    .dorne-search-btn > a,
+    .dorne-signin-btn > a {
+        margin-right: 0;
+        margin-left: 15px;
+        padding: 10px 0;
+    }
+    .hero-content h2 {
+        color: #fff;
+        font-size: 24px;
+    }
+    .hero-social-btn {
+        display: none;
+    }
+    .hero-search-form .tab-content .tab-pane form .custom-select {
+        padding: 0 10px;
+        margin-right: 5px;
+    }
+    .dorne-btn {
+        min-width: 150px;
+    }
+    .all-catagories {
+        top: 0;
+        padding: 30px 0;
+    }
+    .hero-content h4 {
+        padding-left: 0;
+        font-size: 16px;
+    }
+    .hero-search-form .tab-content .tab-pane h6 {
+        font-size: 16px;
+    }
+    .hero-search-form .tab-content .tab-pane form {
+        display: block;
+    }
+    .hero-search-form .tab-content .tab-pane form .custom-select {
+        padding: 0 50px 0 20px;
+        margin-right: 0;
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .single-catagory-area {
+        margin-bottom: 30px;
+    }
+    .about-content h2 {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .editors-pick-info .places-total-destinations > a,
+    .editors-pick-info .add-more > a {
+        height: 50px;
+        line-height: 50px;
+        padding: 0 15px;
+    }
+    .editors-pick-info {
+        top: 15px;
+        left: 15px;
+    }
+    .dorne-features-destinations-area,
+    .dorne-features-restaurant-area {
+        padding: 100px 15px;
+    }
+    .single-catagory-area {
+        padding: 40px 15px;
+    }
+    .feature-events-thumb {
+        width: 100%;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+    }
+    .feature-events-content {
+        padding: 30px 15% 30PX 20px;
+    }
+    .clients-logo > img {
+        padding: 30px;
+    }
+    .dorne-footer-area {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .footer-text {
+        margin-bottom: 30px;
+    }
+    .explore-search-area,
+    .explore-map-area,
+    .explore-search-form,
+    .explore-search-result {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        width: 100%;
+    }
+    .explore-search-form {
+        padding: 30px 15px;
+    }
+    .explore-search-form h6 {
+        font-size: 14px;
+    }
+    .explore-search-form .tab-content .tab-pane form .custom-select {
+        margin-bottom: 15px;
+    }
+    .explore-search-area {
+        height: 1500px;
+    }
+    .explore-map-area {
+        height: 800px;
+    }
+    .explore-search-result {
+        padding: 0 30px;
+        height: 550px;
+        overflow-y: auto
+    }
+    .explore-search-form .nav-tabs {
+        margin-bottom: 30px;
+    }
+    .listing-sidebar {
+        margin-top: 100px;
+    }
+    .map-ratings-review-area > a {
+        padding: 0 20px;
+    }
+    .single-listing-nav li a {
+        padding: 30px 5px;
+        font-size: 12px;
+    }
+    .contact-form-area,
+    .dorne-map-area {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+        width: 100%;
+    }
+    .contact-form-area {
+        padding: 50px 15px;
+    }
+    .dorne-map-area {
+        height: 500px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .hero-content h2 {
+        font-size: 36px;
+    }
+    .feature-events-thumb {
+        width: 179px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 179px;
+                flex: 0 0 179px;
+    }
+    .map-ratings-review-area > a {
+        padding: 0 30px;
+    }
+    .single-listing-nav li a {
+        padding: 30px 10px;
+        font-size: 14px;
+    }
+}
