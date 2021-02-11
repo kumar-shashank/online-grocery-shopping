@@ -59,7 +59,7 @@ class formBuilder
             echo $input;
 		}
     }
-    function validate($name,$rules) // function for validation name: name of the field, rules: validation rules
+    function validate($name,$rules) 
     {
        
         $this->validators=$this->validators."

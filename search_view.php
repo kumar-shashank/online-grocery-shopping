@@ -14,9 +14,7 @@ if(isset($_REQUEST['onsearch']))
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
+   
     <title>Dorne - Directory &amp; Listing Template | Listing</title>
 
     <!-- Favicon -->
@@ -36,7 +34,7 @@ if(isset($_REQUEST['onsearch']))
         <div class="dorne-load"></div>
     </div>
 
-    <!-- ***** Search Form Area ***** -->
+
     <div class="dorne-search-form d-flex align-items-center">
         <div class="container">
             <div class="row">
@@ -158,9 +156,7 @@ if(isset($_REQUEST['onsearch']))
                 <div class="col-12 d-md-flex align-items-center justify-content-between">
                     <div class="footer-text">
                         <p>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Project is made by Shashank Kumar & Varunika Palsetty</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         </p>
                     </div>
                     
@@ -168,9 +164,7 @@ if(isset($_REQUEST['onsearch']))
             </div>
         </div>
     </footer>
-    <!-- ****** Footer Area End ****** -->
 
-    <!-- jQuery-2.2.4 js -->
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
     <script src="js/bootstrap/popper.min.js"></script>

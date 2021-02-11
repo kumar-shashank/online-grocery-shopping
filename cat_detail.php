@@ -14,29 +14,27 @@ $result=select($q);
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
+   
     <title>Dorne - Directory &amp; Listing Template | Listing</title>
 
-    <!-- Favicon -->
+    
     <link rel="icon" href="img/core-img/favicon.ico">
 
-    <!-- Core Stylesheet -->
+    
     <link href="style.css" rel="stylesheet">
 
-    <!-- Responsive CSS -->
+  
     <link href="css/responsive/responsive.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <!-- Preloader -->
+  
     <div id="preloader">
         <div class="dorne-load"></div>
     </div>
 
-    <!-- ***** Search Form Area ***** -->
+  
     <div class="dorne-search-form d-flex align-items-center">
         <div class="container">
             <div class="row">
@@ -53,7 +51,7 @@ $result=select($q);
         </div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
+    
     <header class="header_area" id="header">
         <div class="container-fluid h-100">
             <div class="row h-100">
@@ -111,9 +109,7 @@ $result=select($q);
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
-
-    <!-- ***** Breadcumb Area Start ***** -->
+    
     <div class="breadcumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpg)"></div>
 	</br>
     
@@ -160,9 +156,8 @@ $result=select($q);
                 <div class="col-12 d-md-flex align-items-center justify-content-between">
                     <div class="footer-text">
                         <p>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This Project is made by Shashank Kumar & Varunika Palsetty</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights 
                         </p>
                     </div>
                     
@@ -170,9 +165,9 @@ $result=select($q);
             </div>
         </div>
     </footer>
-    <!-- ****** Footer Area End ****** -->
 
-    <!-- jQuery-2.2.4 js -->
+
+  
     <script src="js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
     <script src="js/bootstrap/popper.min.js"></script>

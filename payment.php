@@ -19,7 +19,7 @@ require_once"dbconfig.php";
 <style>
 body { margin-top:20px; }
 
-/* CSS for Credit Card Payment form */
+
 .credit-card-box .panel-title {
     display: inline;
     font-weight: bold;
@@ -63,29 +63,7 @@ body { margin-top:20px; }
 </style>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script>
-/*
-The MIT License (MIT)
 
-Copyright (c) 2015 William Hilton
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-*/
 var $form = $('#payment-form');
 $form.find('.subscribe').on('click', payWithStripe);
 
@@ -93,7 +71,7 @@ $form.find('.subscribe').on('click', payWithStripe);
 function payWithStripe(e) {
     e.preventDefault();
     
-    /* Abort if invalid form data */
+   
     if (!validator.form()) {
         return;
     }
@@ -115,22 +93,20 @@ function payWithStripe(e) {
     
     Stripe.card.createToken(ccData, function stripeResponseHandler(status, response) {
         if (response.error) {
-            /* Visual feedback */
+         
             $form.find('.subscribe').html('Try again').prop('disabled', false);
             /* Show Stripe errors on the form */
             $form.find('.payment-errors').text(response.error.message);
             $form.find('.payment-errors').closest('.row').show();
         } else {
-            /* Visual feedback */
+           
             $form.find('.subscribe').html('Processing <i class="fa fa-spinner fa-pulse"></i>');
             /* Hide Stripe errors on the form */
             $form.find('.payment-errors').closest('.row').hide();
             $form.find('.payment-errors').text("");
-            // response contains id and card, which contains additional card details            
             console.log(response.id);
             console.log(response.card);
             var token = response.id;
-            // AJAX - you would send 'token' to your server here.
             $.post('/account/stripe_card_token', {
                     token: token
                 })
@@ -220,8 +196,7 @@ var readyInterval = setInterval(function() {
 
 <div class="container">
     <div class="row">
-        <!-- You can make it whatever width you want. I'm making it full width
-             on <= small devices and 4/12 page width on >= medium devices -->
+       
         <div class="col-xs-4 col-md-4"></div>
         <div class="col-xs-4 col-md-4">
         

@@ -15,10 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
    <script type="text/javascript">
 		$(document).ready(function() {
-			/*
-			 *  Simple image gallery. Uses default settings
-			 */
-
+		
 			$('.fancybox').fancybox();
 
 		});

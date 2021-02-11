@@ -26,9 +26,7 @@ $result2=select("select * from user where userid='".$_SESSION['userid']."'");
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-    <!-- Title -->
+   
     <title>My Cart</title>
 
     <!-- Core Stylesheet -->
@@ -40,12 +38,11 @@ $result2=select("select * from user where userid='".$_SESSION['userid']."'");
 </head>
 
 <body>
-    <!-- Preloader -->
+
     <div id="preloader">
         <div class="dorne-load"></div>
     </div>
 
-    <!-- ***** Search Form Area ***** -->
     <div class="dorne-search-form d-flex align-items-center">
         <div class="container">
             <div class="row">
@@ -62,7 +59,6 @@ $result2=select("select * from user where userid='".$_SESSION['userid']."'");
         </div>
     </div>
 
-    <!-- ***** Header Area Start ***** -->
     <header class="header_area" id="header">
         <div class="container-fluid h-100">
             <div class="row h-100">

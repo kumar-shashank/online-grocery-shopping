@@ -161,12 +161,11 @@ $('.navbar-light .dmenu').hover(function () {
                 </div>
             </div>
         </div>
-        <!-- Hero Social Btn -->
+       
         
     </section>
     
-    
-    <!-- ***** Features Destinations Area Start ***** -->
+
     <section class="dorne-features-destinations-area">
         <div class="container-fluid">
             <div class="row">

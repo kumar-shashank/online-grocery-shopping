@@ -2,7 +2,7 @@
 			<div class="container">
 				
 				<div class="copy">
-			           <p>© 2018 Template by <a href="https://projecttunnel.com/" target="_blank">Projecttunnel</a></p>
+			           <p>© 2021  <a href="" target="_blank"></a></p>
 		            </div>
 			</div>
 		</div>
